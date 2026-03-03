@@ -10,7 +10,7 @@ client = OpenAI(
 # Initialize conversation history
 conversation_history = []
 
-def chat_with_venice_streaming(user_message, model="llama-3.3-70b"):
+def chat_with_venice_streaming(user_message, model="venice-uncensored"):
     global conversation_history
     
     # Add user message to history
